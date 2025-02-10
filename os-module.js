@@ -1,0 +1,10 @@
+const os=require('os');
+console.log("platform ",os.platform());
+console.log("user ",os.userInfo());
+console.log("cpu arch: ",os.arch());
+console.log('free memory: ',os.freemem(),'bytes');
+console.log('total memory:',os.totalmem(),'bytes');
+console.log('system uptime: ',os.uptime(),'seconds');
+console.log('home: ',os.homedir());
+console.log('cpu: ',os.cpus());
+console.log('operating sys: ',os.type());
